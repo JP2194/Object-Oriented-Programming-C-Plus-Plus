@@ -45,7 +45,7 @@ void gameLoop(RPG* player1, RPG *player2)
 
 int main()
 {
-    RPG p1 = RPG("Player", 100, 20, 20,"mage");
+    RPG p1 = RPG("Player", 100, 50, 5,"mage");
     RPG p2 = RPG();
 
     gameLoop(&p1,&p2);
